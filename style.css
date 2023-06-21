@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montagu+Slab&display=swap');
+:root{
+    --font1: 'Lobster', cursive;
+    --font2: 'Montagu Slab', serif;
+    --font3: 'Poppins', sans-serif;
+    
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#f6d4be;
+/*   background-image: url("bg\(Password\ generator\)-01.png"); */
+}
+.margin{
+  margin-left: 120px;
+}
+.inner-container {
+  background: #f69a5b;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+/*     justify-content: center; */
+/*     align-items: center; */
+    /* max-width: 750px; */
+    width: 750px;
+    height: 650px;
+    box-shadow: 11px 11px 25px #ed7f35;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header h1{
+  color: white;
+  padding: 15px;
+  margin-top: 65px;
+  font-size: 45px;
+  font-family: var(--font3);
+}
+/* .options{
+  margin:0px 0px;
+} */
+.check-box{
+    margin: 15px;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+}
+.redio{
+  position:absolute;
+  margin-left: 450px;
+  margin-top: 10px;
+}
+.btn{
+    margin-right: 130px;
+    margin-top: 20px;
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 15px 0px;
+}
+.btn:hover{
+  background: #ed7f35;
+/*   transition: all 0.5s ease-in-out; */
+}
+#disp{
+    align-items: center;
+    padding: 20px 100px;
+    margin-top: 20px;
+    margin-right: 14px;
+    margin-left: 120px;
+    font-size: 1.4rem;
+    font-family: var(--font3);
+    text-align: center;
+}
+.img_copy img{
+  margin-top:36px;
+}
+.pass{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.range{
+  margin-right: 100px;
+}
