@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@i mport url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montagu+Slab&display=swap');
 :root{
     --font1: 'Lobster', cursive;
     --font2: 'Montagu Slab', serif;
     --font3: 'Poppins', sans-serif;
     
-}
+} 
+
 
 html, body {
   height: 100%;
@@ -13,23 +14,22 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:#f6d4be;
-/*   background-image: url("bg\(Password\ generator\)-01.png"); */
+  background:#95d5b2;
+  margin-top: 10px;
 }
 .margin{
   margin-left: 120px;
+
 }
 .inner-container {
-  background: #f69a5b;
+  background: #1b4332;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-/*     justify-content: center; */
-/*     align-items: center; */
-    /* max-width: 750px; */
+
     width: 750px;
     height: 650px;
-    box-shadow: 11px 11px 25px #ed7f35;
+    box-shadow: 11px 20px 35px #212f45;
 }
 .container{
   display: flex;
@@ -66,7 +66,7 @@ html, body {
     padding: 15px 0px;
 }
 .btn:hover{
-  background: #ed7f35;
+  background: linear-gradient(45deg, #2d6a4f, #74c69d)
 /*   transition: all 0.5s ease-in-out; */
 }
 #disp{
@@ -79,9 +79,7 @@ html, body {
     font-family: var(--font3);
     text-align: center;
 }
-.img_copy img{
-  margin-top:36px;
-}
+
 .pass{
   display:flex;
   flex-direction: row;
@@ -89,4 +87,8 @@ html, body {
 }
 .range{
   margin-right: 100px;
+}
+
+h4{
+  color: #d8f3dc;
 }
