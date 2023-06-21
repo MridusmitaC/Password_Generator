@@ -6,7 +6,7 @@ class Password {
     this.sym = "!@#$%^&*()?{}[]~"
   }
   funnyPassword() {
-    let arr = ["forgot", "incorrect", "password", "12345678", "iforgot", "secret", "MyPreciousssPasssword", "MyName", "Hackerman", "nothing", "user", "maiNahiBataunga", "Sorry", "1$perhour", "admin", "passwordIs1234", "KyuChahiyePassword", "NehiBataungaPassword", "WrongPassword"]
+    let arr = ["forgot", "incorrect","HelloWorld", "password", "12345678", "iforgot", "secret", "MyPreciousssPasssword", "MyName", "Hackerman", "nothing", "user", "maiNahiBataunga", "Sorry", "1$perhour", "admin", "passwordIs1234", "KyuChahiyePassword", "NehiBataungaPassword", "WrongPassword"]
     let i = Math.floor(Math.random() * arr.length)
     return arr[i]
   }
