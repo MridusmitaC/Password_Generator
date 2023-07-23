@@ -1,4 +1,4 @@
-@i mport url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montagu+Slab&display=swap');
 :root{
     --font1: 'Lobster', cursive;
@@ -15,7 +15,7 @@ html, body {
   justify-content: center;
   align-items: center;
   background:#95d5b2;
-/*   margin-top: 10px; */
+  margin-top: 10px;
 }
 .margin{
   margin-left: 120px;
@@ -28,7 +28,7 @@ html, body {
     flex-direction: column;
 
     width: 750px;
-    height: 650px;
+    height: 580px;
     box-shadow: 11px 20px 35px #212f45;
 }
 .container{
@@ -69,13 +69,13 @@ html, body {
   background: linear-gradient(45deg, #2d6a4f, #74c69d)
 /*   transition: all 0.5s ease-in-out; */
 }
-#disp {
+#disp{
     align-items: center;
-    padding: 20px 103px;
+    padding: 20px 100px;
     margin-top: 20px;
     margin-right: 14px;
     margin-left: 120px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: var(--font3);
     text-align: center;
 }
@@ -92,3 +92,37 @@ html, body {
 h4{
   color: #d8f3dc;
 }
+
+/*                       */
+@media screen and (max-width: 347px) {
+  .margin {
+    margin-left: 20px;
+  }
+
+  .inner-container {
+    width: 90%;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .check-box {
+    font-size: 16px;
+  }
+
+  .redio {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 0px;
+  }
+
+  #disp {
+    padding: 8px 16px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
