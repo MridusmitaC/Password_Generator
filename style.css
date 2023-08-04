@@ -129,12 +129,12 @@ h4{
   }
 }
 @media screen and (max-width: 427px) {
-  /* .margin {
-    margin-left: 20px;
-  } */
+  .margin {
+    margin-left: 10px;
+  } 
 
   .inner-container {
-    width: 90%;
+    width: 100%;
     height: 100%;
 
   }
@@ -144,7 +144,7 @@ h4{
   }
 
   .check-box {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .redio {
@@ -154,11 +154,11 @@ h4{
 
   .btn {
     font-size: 1px;
-    padding: 1px 1px;
+    padding: 0px 2px;
   }
 
   #disp {
-    padding: 8px 16px;
+    padding: 12px 2px;
     margin-left: 20px;
     font-size: 14px;
   }
