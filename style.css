@@ -94,7 +94,30 @@ h4{
 }
 
 /*                       */
+@media screen and (max-width: 700px){
+  #disp {
+    padding: 8px 30px;
+    margin-left: 120px;
+    font-size: 14px;
+  }
 
+  .redio {
+    margin-left: 330px;
+    margin-right: 0px;
+  }
+ 
+   .inner-container {
+    width: 110vh;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
+    .check-box {
+    font-size: 16px;
+  }
+
+
+}
 @media screen and (max-width: 637px) {
   .margin {
     margin-left: 20px;
