@@ -94,13 +94,14 @@ h4{
 }
 
 /*                       */
-@media screen and (max-width: 347px) {
+
+@media screen and (max-width: 637px) {
   .margin {
     margin-left: 20px;
   }
 
   .inner-container {
-    width: 90%;
+    width: 110vh;
   }
 
   .header h1 {
@@ -112,13 +113,48 @@ h4{
   }
 
   .redio {
-    margin-left: 0px;
-    margin-right: 5px;
+    margin-left: 330px;
+    margin-right: 0px;
+  }
+ 
+  .btn {
+    font-size: 10px;
+    padding: 10px 1px;
+  }
+
+  #disp {
+    padding: 8px 83px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 427px) {
+  /* .margin {
+    margin-left: 20px;
+  } */
+
+  .inner-container {
+    width: 90%;
+    height: 100%;
+
+  }
+
+  .header h1 {
+    font-size: 23px;
+  }
+
+  .check-box {
+    font-size: 16px;
+  }
+
+  .redio {
+    margin-left: 250px;
+    margin-right: 0px;
   }
 
   .btn {
-    font-size: 14px;
-    padding: 10px 0px;
+    font-size: 1px;
+    padding: 1px 1px;
   }
 
   #disp {
@@ -126,3 +162,4 @@ h4{
     margin-left: 20px;
     font-size: 14px;
   }
+}
